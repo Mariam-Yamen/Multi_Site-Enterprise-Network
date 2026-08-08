@@ -12,7 +12,7 @@ A self-directed project showing a company with 4 branch offices (Cairo, London, 
 **Scalibility**
  - The network can grow (more users, more sites, more traffic) without needing a complete redesign
  - VLSM addressing, VLANS
- - 
+
 **Security**
   -Protecting the network and its data from unauthorized access or attack
   - ACLS, SSH, Password Encryption
@@ -25,18 +25,18 @@ A self-directed project showing a company with 4 branch offices (Cairo, London, 
    
  **VLAN**
  
-   -each branch is segmented into 4 branches (HR, Sales, IT, Accountant) via router on stick (801.2Q 
+   - each branch is segmented into 4 branches (HR, Sales, IT, Accountant) via router on stick (801.2Q 
    subinterfaces) 
-   -HR- VLAN 10 | Sales= VLAN 20 | IT=VLAN 30  |Accountant = VLAN 40
+   - HR- VLAN 10 | Sales= VLAN 20 | IT=VLAN 30  |Accountant = VLAN 40
    
  **DHCP**
  
-   -DHCP pool for each department per router.
+   - DHCP pool for each department per router.
    
  **Addressing**
  
-   -Custom Vlan plan
-   -subnets : /29 per department | /28 : shared services | /30 WAN Links
+   - Custom Vlan plan
+   - subnets : /29 per department | /28 : shared services | /30 WAN Links
    - Static Addressing for servers (HTTP, DNS, syslog) and for router interfaces
      
  **SECURITY**
