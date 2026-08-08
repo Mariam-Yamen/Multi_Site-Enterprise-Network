@@ -3,7 +3,7 @@
 A self-directed project showing a company with 4 branch offices (Cairo, London, Madrid, Paris) connected in a
  ring topology with a central server site managing DNS, HTTP and Syslog servers.
 
-##ACHIEVES THE THREE OF THE FOUR PILLARS
+## ACHIEVES THE THREE OF THE FOUR PILLARS
 
 **Fault Tolerance**
  - The network can withstand failures without a total service disruption
