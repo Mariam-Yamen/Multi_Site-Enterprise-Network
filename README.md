@@ -4,12 +4,15 @@ A self-directed project showing a company with 4 branch offices (Cairo, London, 
  ring topology with a central server site managing DNS, HTTP and Syslog servers.
 
 ##ACHIEVES THE THREE OF THE FOUR PILLARS
+
 **Fault Tolerance**
  - The network can withstand failures without a total service disruption
  - Multiple OSPF Paths, Ring Topology
+   
 **Scalibility**
  - The network can grow (more users, more sites, more traffic) without needing a complete redesign
  - VLSM addressing, VLANS
+ - 
 **Security**
   -Protecting the network and its data from unauthorized access or attack
   - ACLS, SSH, Password Encryption
