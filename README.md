@@ -17,7 +17,7 @@ A self-directed project showing a company with 4 branch offices (Cairo, London, 
   -Protecting the network and its data from unauthorized access or attack
   - ACLS, SSH, Password Encryption
 
- ##Features
+ ## Features
  
  **Routing**
    OSPF routing across all sites and static/default route edge for internet bound traffic.
